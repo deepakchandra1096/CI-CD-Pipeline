@@ -1,4 +1,4 @@
-From CentOS-jdk8
+From centos-jdk8
 RUN mkdir -p/usr/scr/app1
 WORKDIR  /usr/src/app1
 COPY user-identity-rest-1.0.0.jar /usr/src/app1
