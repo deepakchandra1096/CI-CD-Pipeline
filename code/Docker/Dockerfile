@@ -3,6 +3,7 @@ RUN mkdir -p /usr/scr/app1
 WORKDIR  /usr/src/app1
 COPY user-identity-rest-1.0.0.jar /usr/src/app1
 RUN yum update -y
+RUN yum install java
 RUN java -version
 COPY . /usr/src/app1
 EXPOSE 9090 9990
